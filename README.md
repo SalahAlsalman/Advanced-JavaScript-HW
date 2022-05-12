@@ -1,36 +1,31 @@
 # Advanced-JavaScript-HW
 
-# HW: OOP JavaScript 
 
-## Exercise 1: The Movie Database
+## Arrays
 
-* Create an object to store the following information about your favorite movie: title (a string), duration (a number), and stars (an array of strings).
-
-* Print out the movie information like so: "Puff the Magic Dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
+create an array of characters that has these properties (name, height, gender, mass, eye color) 
 
 
-## Exercise 2: Animals
+### MAP
+1. Get array of objects with just name and height properties
+2. Get array of all first names
 
-* Create a file Animals.js.
-* create class name animal (this will be the parent class) it should have:
-    * constructor with the animal name, age, image, and sound 
-    * create method called `eats` that will return for example `"animal eats food"` where `animal` is the property `name`. 
+### REDUCE
+1. Get total mass of all characters
+2. Get total number of characters in all the character names
 
-* create cat class (this will be child class) it shoud have:
-    * extend the parent constructor and add to it `owner` property. 
-    * override the `eats` method and make it return `"cats eats mouse"`. 
-    * override the `Animalsound` method and make it return `"cat sounds is meow"`. 
+### FILTER
+1. Get characters with mass greater than 100
+2. Get all female characters
 
-* create dog class (this will be child class) it shoud have:
-    * extend the parent constructor and add to it `owner` property. 
-    * override the `eats` method and make it return `"dogs eats chicken"`. 
-    * override the `Animalsound` method and make it return `"dogs sounds is woof"`. 
+### SORT
+1. Sort by name
+2. Sort by gender
 
-* create fish class (this will be child class) it shoud have:
-    * extend the parent constructor and add to it `color` property. 
-    * override the `eats` method and make it return `"fish eats flakes"`. 
+### EVERY
+1. Does every character have blue eyes?
+2. Is every character male?
 
-* create object for dog, cat and fish classes and excute all the methods in the classes.  
-
-* create HTML file and print the images of each object. 
-* when clicking on the image the details of the animal should show up in a list. 
+### SOME
+1. Is there at least one male character?
+2. Is there at least one character that has mass less than 50?
