@@ -29,3 +29,11 @@ create an array of characters that has these properties (name, height, gender, m
 ### SOME
 1. Is there at least one male character?
 2. Is there at least one character that has mass less than 50?
+
+
+# The pokemon API
+
+- Figure out how to access the images and names key with their values.
+- use bootstrap to design your page.
+
+https://pokeapi.co/
