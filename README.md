@@ -35,5 +35,6 @@ create an array of characters that has these properties (name, height, gender, m
 
 - Figure out how to access the images and names key with their values.
 - use bootstrap to design your page.
+- use (onclick - onmouseover) when click on pokemon to explain more details.
 
 [pokemon api](https://pokeapi.co/)
