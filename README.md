@@ -37,4 +37,5 @@ create an array of characters that has these properties (name, height, gender, m
 - use bootstrap to design your page.
 - use (onclick - onmouseover) when click on pokemon to explain more details.
 
-[breaking bad api]([https://pokeapi.co/](https://breakingbadapi.com/documentation)) or any api you want.
+[breaking bad api]([https://pokeapi.co/](https://breakingbadapi.com/documentation])
+or any api you want.
